@@ -1,4 +1,4 @@
-CC = g++ -I/usr/include/SDL2
+CC = g++
 cflags = -std=c++17 -g -O2
 ldflags += -Iinclude -lstdc++ -lSDL2main -lSDL2 -lpthread 
 name = JAZZ 
